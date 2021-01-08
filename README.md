@@ -16,7 +16,7 @@ Wildbot's focus is demonstrating a simple and stable interface for the important
 
 Wildbot runs on pure Ruby (built for 2.7.2), and is backed by Redis. You simply need Ruby and Redis to run the app!
 
-It speaks to the default Redis port locally. You can use your own local redis server, or a pre-configured copy is provided using docker-compose, which is available with Docker and (Docker Desktop)[https://www.docker.com/products/docker-desktop].
+It speaks to the default Redis port locally. You can use your own local redis server, or a pre-configured copy is provided using docker-compose, which is available with Docker and [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
 Environment variables are managed by the `dotenv` gem. You simply need to make the requisite `.env` file from the template provided.
 
